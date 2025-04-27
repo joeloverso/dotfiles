@@ -1,0 +1,8 @@
+2025-04-25 15:39:39.073 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/0.49.5/231eb9736c40aee00148f04c6872684118749ccead8f75e5d98cc209d995b9a1/stable
+2025-04-25 15:39:39.073 [info] update#setState idle
+2025-04-25 15:39:40.451 [error] vscode-file: Refused to load resource /tmp/.mount_CursorYkowDA/usr/share/cursor/resources/app/extensions/theme-seti/icons/seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/tmp/.mount_CursorYkowDA/usr/share/cursor/resources/app/extensions/theme-seti/icons/seti.woff)
+2025-04-25 15:40:09.032 [info] update#setState checking for updates
+2025-04-25 15:40:09.094 [info] update#setState idle
+2025-04-25 15:54:03.764 [info] Extension host with pid 4600 exited with code: 0, signal: unknown.
+2025-04-25 15:54:03.798 [info] Extension host with pid 4534 exited with code: 0, signal: unknown.
+2025-04-25 15:54:03.825 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 4550]: crashed with code 15 and reason 'killed'

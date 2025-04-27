@@ -1,0 +1,16 @@
+# Cursor IDE configuration
+if [ "$OS" == "linux" ]; then
+  [ -d "$DOTFILES_DIR/editor/cursor" ] && mkdir -p "$HOME/.config" && \
+    link_file "$DOTFILES_DIR/editor/cursor" "$HOME/.config/Cursor"
+  [ -d "$DOTFILES_DIR/editor/cursor-server" ] && \
+    link_file "$DOTFILES_DIR/editor/cursor-server" "$HOME/.cursor-server"
+  [ -f "$DOTFILES_DIR/editor/cursorrules" ] && \
+    link_file "$DOTFILES_DIR/editor/cursorrules" "$HOME/.cursorrules"
+elif [ "$OS" == "macos" ]; then
+  [ -d "$DOTFILES_DIR/editor/cursor" ] && mkdir -p "$HOME/Library/Application Support" && \
+    link_file "$DOTFILES_DIR/editor/cursor" "$HOME/Library/Application Support/Cursor"
+  [ -d "$DOTFILES_DIR/editor/cursor-server" ] && \
+    link_file "$DOTFILES_DIR/editor/cursor-server" "$HOME/.cursor-server"
+  [ -f "$DOTFILES_DIR/editor/cursorrules" ] && \
+    link_file "$DOTFILES_DIR/editor/cursorrules" "$HOME/.cursorrules"
+fi

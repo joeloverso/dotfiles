@@ -1,0 +1,43 @@
+2025-04-25 18:53:43.902 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-04-25 18:53:43.902 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-04-25 18:53:43.902 [info] Using existing keys for an index
+2025-04-25 18:53:43.902 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-04-25 18:53:43.995 [info] Using existing keys for an index
+2025-04-25 18:53:43.995 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-04-25 18:53:44.040 [info] Setting global status from status tracker: synced
+2025-04-25 18:53:44.040 [info] Doing a startup handshake.
+2025-04-25 18:53:44.346 [info] Finished computing merkle tree in 82.36931400000003 ms.
+2025-04-25 18:53:44.348 [info] Doing the initial handshake with hash: 976d46b0688339e2000cf1a3f0434a658b739ab6e669bd011b48041211c0c3b4
+2025-04-25 18:53:44.353 [info] Computed simhash vector of length: 256
+2025-04-25 18:53:44.353 [info] Path key hash: 98f35dbdccacd42be61cb36656b2e23fcd09f7c2e2edcb9864ae4dd6a8af1fb1
+2025-04-25 18:53:44.353 [info] Handshake start
+2025-04-25 18:53:44.565 [error] Git command failed: git cat-file -e origin/main:.devcontainer/devcontainer.json Command failed: git cat-file -e origin/main:.devcontainer/devcontainer.json
+fatal: path '.devcontainer/devcontainer.json' does not exist in 'origin/main'
+
+2025-04-25 18:53:44.594 [info] Handshake timing: 244.49051899999995, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e175a2ec-1d31-4be6-90ad-5e84f443a81f","status":"STATUS_UP_TO_DATE"}]}
+2025-04-25 18:53:44.594 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e175a2ec-1d31-4be6-90ad-5e84f443a81f","status":"STATUS_UP_TO_DATE"}]}
+2025-04-25 18:53:44.594 [info] Starting fast remote sync.
+2025-04-25 18:53:44.598 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-04-25 18:53:44.598 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-04-25 18:53:44.598 [info] multiCodebaseIndexingJob dispose
+2025-04-25 18:53:44.598 [info] Aborting indexing job.
+2025-04-25 18:53:44.598 [info] Using existing keys for an index
+2025-04-25 18:53:44.598 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-04-25 18:53:44.599 [info] Indexing job successfully done or aborted.
+2025-04-25 18:53:44.600 [info] Setting global status from status tracker: synced
+2025-04-25 18:53:44.600 [info] Doing a startup handshake.
+2025-04-25 18:53:44.619 [info] Finished computing merkle tree in 9.581671999999799 ms.
+2025-04-25 18:53:44.621 [info] Doing the initial handshake with hash: 976d46b0688339e2000cf1a3f0434a658b739ab6e669bd011b48041211c0c3b4
+2025-04-25 18:53:44.623 [info] Computed simhash vector of length: 256
+2025-04-25 18:53:44.623 [info] Path key hash: 98f35dbdccacd42be61cb36656b2e23fcd09f7c2e2edcb9864ae4dd6a8af1fb1
+2025-04-25 18:53:44.623 [info] Handshake start
+2025-04-25 18:53:44.763 [info] Handshake timing: 140.5540249999999, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e175a2ec-1d31-4be6-90ad-5e84f443a81f","status":"STATUS_UP_TO_DATE"}]}
+2025-04-25 18:53:44.763 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e175a2ec-1d31-4be6-90ad-5e84f443a81f","status":"STATUS_UP_TO_DATE"}]}
+2025-04-25 18:53:44.763 [info] Starting fast remote sync.
+2025-04-25 18:53:44.763 [info] Total num embeddable files: 6
+2025-04-25 18:53:44.763 [info] Root hash: 976d46b0688339e2000cf1a3f0434a658b739ab6e669bd011b48041211c0c3b4
+2025-04-25 18:53:44.765 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-04-25 18:53:44.812 [info] Finished indexing repository.
+2025-04-25 18:53:44.812 [info] Indexing job successfully done or aborted.
+2025-04-25 18:55:45.484 [info] multiCodebaseIndexingJob dispose
+2025-04-25 18:55:45.484 [info] Aborting indexing job.

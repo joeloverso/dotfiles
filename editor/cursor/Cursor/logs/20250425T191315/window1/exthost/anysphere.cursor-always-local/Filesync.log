@@ -1,0 +1,17 @@
+2025-04-25 19:13:19.762 [error] Failed to check if file sync is enabled for user {}
+2025-04-25 19:13:19.762 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-25 19:13:19.762 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-25 19:13:19.906 [info] [registerEventListeners] Registering event listeners
+2025-04-25 19:13:20.622 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-25 19:13:20.778 [info] Fetched fsConfig in 155.24308500000006ms
+2025-04-25 19:13:20.778 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-25 19:13:20.778 [info] File sync enabled status: true
+2025-04-25 19:13:20.778 [info] Starting sync of visible tabs
+2025-04-25 19:13:20.831 [info] Uploaded file main.py modelVersion=1 in 51.13617400000021ms
+2025-04-25 19:13:20.831 [info] Synced all visible tabs in 53.81017299999985ms
+2025-04-25 19:13:21.503 [info] Starting sync of visible tabs
+2025-04-25 19:13:21.552 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-25 19:13:21.556 [info] Uploaded file main.py modelVersion=1 in 52.33483400000023ms
+2025-04-25 19:13:21.556 [info] Synced all visible tabs in 53.061484999999266ms
+2025-04-25 19:13:21.599 [info] Fetched fsConfig in 47.225524999999834ms
+2025-04-25 19:13:21.599 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}

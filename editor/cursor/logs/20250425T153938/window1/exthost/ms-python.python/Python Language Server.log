@@ -1,0 +1,36 @@
+2025-04-25 15:39:43.577 [info] (Client) Pylance async client (2024.8.1) started with python extension (2024.12.3)
+2025-04-25 15:39:44.096 [info] [Info  - 3:39:44 PM] (5057) Pylance language server 2024.8.1 (pyright version 1.1.373, commit ee424479) starting
+2025-04-25 15:39:44.126 [info] [Info  - 3:39:44 PM] (5057) Server root directory: file:///home/josephloverso/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2025-04-25 15:39:44.142 [info] [Info  - 3:39:44 PM] (5057) Starting service instance "Autograder"
+2025-04-25 15:39:44.175 [info] [Info  - 3:39:44 PM] (5057) Setting pythonPath for service "Autograder": "/home/josephloverso/Code/Autograder_Project/Autograder/.venv/bin/python"
+2025-04-25 15:39:44.175 [info] [Info  - 3:39:44 PM] (5057) Setting environmentName for service "Autograder": "3.13.3 (.venv venv)"
+2025-04-25 15:39:44.175 [info] [Info  - 3:39:44 PM] (5057) Loading pyproject.toml file at /home/josephloverso/Code/Autograder_Project/Autograder/pyproject.toml
+2025-04-25 15:39:44.177 [info] [Info  - 3:39:44 PM] (5057) Pyproject file "/home/josephloverso/Code/Autograder_Project/Autograder/pyproject.toml" has no "[tool.pyright]" section.
+2025-04-25 15:39:44.177 [info] [Info  - 3:39:44 PM] (5057) No include entries specified; assuming /home/josephloverso/Code/Autograder_Project/Autograder
+2025-04-25 15:39:44.177 [info] [Info  - 3:39:44 PM] (5057) Auto-excluding **/node_modules
+2025-04-25 15:39:44.177 [info] [Info  - 3:39:44 PM] (5057) Auto-excluding **/__pycache__
+2025-04-25 15:39:44.177 [info] [Info  - 3:39:44 PM] (5057) Auto-excluding **/.*
+2025-04-25 15:39:44.199 [info] [Info  - 3:39:44 PM] (5057) Assuming Python version 3.13.3.final.0
+2025-04-25 15:39:44.283 [info] [Info  - 3:39:44 PM] (5057) Found 1 source file
+2025-04-25 15:39:44.490 [info] [Info  - 3:39:44 PM] (5057) Background analysis(1) root directory: file:///home/josephloverso/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2025-04-25 15:39:44.492 [info] [Info  - 3:39:44 PM] (5057) Background analysis(1) started
+2025-04-25 15:39:44.738 [info] [Info  - 3:39:44 PM] (5057) Indexer background runner(2) root directory: file:///home/josephloverso/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist (index)
+2025-04-25 15:39:44.738 [info] [Info  - 3:39:44 PM] (5057) Indexing(2) started
+2025-04-25 15:39:45.044 [info] [Info  - 3:39:45 PM] (5057) scanned(2) 21 files over 1 exec env
+2025-04-25 15:39:45.200 [info] [Info  - 3:39:45 PM] (5057) indexed(2) 14 files over 1 exec env
+2025-04-25 15:39:45.216 [info] [Info  - 3:39:45 PM] (5057) Indexing finished(2).
+2025-04-25 15:52:40.499 [info] [Info  - 3:52:40 PM] (5057) Setting pythonPath for service "Autograder": "/home/josephloverso/Code/Autograder_Project/Autograder/.venv/bin/python"
+2025-04-25 15:52:40.499 [info] [Info  - 3:52:40 PM] (5057) Setting environmentName for service "Autograder": "3.13.3 (.venv venv)"
+2025-04-25 15:52:40.499 [info] [Info  - 3:52:40 PM] (5057) Loading pyproject.toml file at /home/josephloverso/Code/Autograder_Project/Autograder/pyproject.toml
+2025-04-25 15:52:40.500 [info] [Info  - 3:52:40 PM] (5057) Pyproject file "/home/josephloverso/Code/Autograder_Project/Autograder/pyproject.toml" has no "[tool.pyright]" section.
+2025-04-25 15:52:40.500 [info] [Info  - 3:52:40 PM] (5057) No include entries specified; assuming /home/josephloverso/Code/Autograder_Project/Autograder
+2025-04-25 15:52:40.500 [info] [Info  - 3:52:40 PM] (5057) Auto-excluding **/node_modules
+2025-04-25 15:52:40.500 [info] [Info  - 3:52:40 PM] (5057) Auto-excluding **/__pycache__
+2025-04-25 15:52:40.500 [info] [Info  - 3:52:40 PM] (5057) Auto-excluding **/.*
+2025-04-25 15:52:40.525 [info] [Info  - 3:52:40 PM] (5057) Assuming Python version 3.13.3.final.0
+2025-04-25 15:52:40.573 [info] [Info  - 3:52:40 PM] (5057) Found 1 source file
+2025-04-25 15:52:40.957 [info] [Info  - 3:52:40 PM] (5057) Indexer background runner(3) root directory: file:///home/josephloverso/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist (index)
+2025-04-25 15:52:40.958 [info] [Info  - 3:52:40 PM] (5057) Indexing(3) started
+2025-04-25 15:52:41.145 [info] [Info  - 3:52:41 PM] (5057) scanned(3) 21 files over 1 exec env
+2025-04-25 15:52:41.267 [info] [Info  - 3:52:41 PM] (5057) indexed(3) 14 files over 1 exec env
+2025-04-25 15:52:41.273 [info] [Info  - 3:52:41 PM] (5057) Indexing finished(3).

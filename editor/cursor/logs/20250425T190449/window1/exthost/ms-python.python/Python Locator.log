@@ -1,0 +1,27 @@
+2025-04-25 19:04:53.034 [info] Starting Python Locator /home/josephloverso/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python-env-tools/bin/pet server
+2025-04-25 19:04:53.035 [info] Discovered env: /home/josephloverso/Code/Autograder_Project/Autograder/.venv/bin/python
+2025-04-25 19:04:53.038 [info] Resolved /home/josephloverso/Code/Autograder_Project/Autograder/.venv/bin/python
+2025-04-25 19:04:53.874 [info] Discovered env: /bin/python
+2025-04-25 19:04:54.649 [info] Discovered env: /usr/bin/python
+2025-04-25 19:04:54.708 [info] Discovered env: /bin/python3
+2025-04-25 19:04:54.731 [info] Discovered env: /usr/bin/python3
+2025-04-25 19:04:54.793 [info] Discovered env: /bin/python3.13
+2025-04-25 19:04:54.866 [info] Discovered env: /usr/bin/python3.13
+2025-04-25 19:04:54.894 [info] Locator Conda took 96.669788ms
+2025-04-25 19:04:54.914 [info] Locator Homebrew took 1.804764ms
+2025-04-25 19:04:54.916 [info] Locator LinuxGlobal took 110.273298ms
+2025-04-25 19:04:54.944 [info] Locator PipEnv took 14.341µs
+2025-04-25 19:04:54.967 [info] Locator Poetry took 576.345µs
+2025-04-25 19:04:54.998 [info] Locator PyEnv took 431.814µs
+2025-04-25 19:04:55.000 [info] Locator Venv took 21.369µs
+2025-04-25 19:04:55.001 [info] Locator VirtualEnv took 21.548µs
+2025-04-25 19:04:55.001 [info] Locator VirtualEnvWrapper took 177.238µs
+2025-04-25 19:04:55.001 [info] Locator GlobalVirtualEnvs took 355.918µs
+2025-04-25 19:04:55.001 [info] Locator Locators took 110.704229ms
+2025-04-25 19:04:55.001 [info] Locator Path took 126.28632ms
+2025-04-25 19:04:55.001 [info] Locator Workspaces took 13.721219ms
+2025-04-25 19:04:55.001 [info] Refresh completed in 126ms
+2025-04-25 19:04:55.002 [info] Resolved /bin/python3
+2025-04-25 19:04:55.002 [info] Resolved /usr/bin/python3
+2025-04-25 19:04:55.003 [info] Resolved /bin/python3.13
+2025-04-25 19:04:55.020 [info] Resolved /usr/bin/python3.13

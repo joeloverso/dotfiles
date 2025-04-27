@@ -1,0 +1,29 @@
+2025-04-25 18:56:56.174 [error] Failed to check if file sync is enabled for user {}
+2025-04-25 18:56:56.174 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-25 18:56:56.174 [error] Failed to fetch fsConfig File sync is disabled
+2025-04-25 18:56:56.357 [info] [registerEventListeners] Registering event listeners
+2025-04-25 18:56:57.051 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-25 18:56:57.186 [info] Fetched fsConfig in 134.73954200000026ms
+2025-04-25 18:56:57.186 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-25 18:56:57.186 [info] File sync enabled status: true
+2025-04-25 18:56:57.186 [info] Starting sync of visible tabs
+2025-04-25 18:56:57.236 [info] Uploaded file main.py modelVersion=1 in 48.865076000000045ms
+2025-04-25 18:56:57.237 [info] Synced all visible tabs in 50.870906000000105ms
+2025-04-25 18:56:57.935 [info] Starting sync of visible tabs
+2025-04-25 18:56:57.985 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-25 18:56:57.989 [info] Uploaded file main.py modelVersion=1 in 45.424715000000106ms
+2025-04-25 18:56:57.989 [info] Synced all visible tabs in 54.818671999999424ms
+2025-04-25 18:56:58.040 [info] Fetched fsConfig in 55.34939699999995ms
+2025-04-25 18:56:58.040 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-25 18:57:35.985 [info] Synced file main.py modelVersion=2 in 46.41946900000039ms
+2025-04-25 18:57:38.538 [info] Synced file main.py modelVersion=3 in 43.0148279999994ms
+2025-04-25 18:58:27.244 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-04-25 18:58:27.289 [info] Fetched fsConfig in 44.98424099999829ms
+2025-04-25 18:58:27.289 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-04-25 18:58:27.289 [info] File sync enabled status: true
+2025-04-25 18:58:27.289 [info] Starting sync of visible tabs
+2025-04-25 18:58:27.289 [info] Synced all visible tabs in 0.08628200000384822ms
+2025-04-25 18:59:45.541 [info] Handled visible editors change in 0.4604840000101831ms
+2025-04-25 19:01:48.088 [info] Handled visible editors change in 2.150973999989219ms
+2025-04-25 19:01:51.301 [info] Handled visible editors change in 0.5383849999634549ms
+2025-04-25 19:01:54.091 [info] Handled visible editors change in 0.9147140000131913ms

@@ -1,0 +1,6 @@
+main.py
+pyproject.toml
+main.spec
+README.md
+.python-version
+.gitignore

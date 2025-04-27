@@ -1,0 +1,29 @@
+{
+    "window.commandCenter": true,
+    "window.titleBarStyle": "native",
+    "git.autofetch": true,
+
+    // Remap Normal-mode O to open line above & stay in Normal
+    // and o to open line below & stay in Normal
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["O"],
+            "commands": [
+                "editor.action.insertLineBefore",
+                "extension.vim_escape"
+            ]
+        },
+        {
+            "before": ["o"],
+            "commands": [
+                "editor.action.insertLineAfter",
+                "extension.vim_escape"
+            ]
+        }
+    ],
+    "key": "escape",
+    "command": "extension.vim_escape",
+    "when": "editorTextFocus && vim.active && vim.mode != 'normal'",
+    "window.menuBarVisibility": "toggle",
+    "window.customTitleBarVisibility": "auto"
+}

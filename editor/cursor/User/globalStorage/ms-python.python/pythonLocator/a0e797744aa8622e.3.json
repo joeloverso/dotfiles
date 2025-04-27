@@ -1,0 +1,14 @@
+{
+  "environment": {
+    "executable": "/home/josephloverso/Code/Autograder_Project/Autograder/.venv/bin/python",
+    "prefix": "/home/josephloverso/Code/Autograder_Project/Autograder/.venv",
+    "version": "3.13.2.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/home/josephloverso/Code/Autograder_Project/Autograder/.venv/bin/python",
+      "/home/josephloverso/Code/Autograder_Project/Autograder/.venv/bin/python3",
+      "/home/josephloverso/Code/Autograder_Project/Autograder/.venv/bin/python3.13"
+    ]
+  },
+  "symlinks": []
+}

@@ -1,0 +1,42 @@
+2025-04-25 15:39:42.124 [info] Experiment 'pythonSurveyNotificationcf' is active
+2025-04-25 15:39:42.124 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-04-25 15:39:42.124 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/home/josephloverso/Code/Autograder_Project/Autograder/.pixi/envs'
+	at Object.readdirSync (node:fs:1507:26)
+	at t.readdirSync (node:electron/js2c/node_init:2:13703)
+	at /home/josephloverso/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:586747
+	at /home/josephloverso/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:586938
+	at Array.map (<anonymous>)
+	at d.initWatchers (/home/josephloverso/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:586656)
+	at async d.ensureWatchersReady (/home/josephloverso/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:543067)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/josephloverso/Code/Autograder_Project/Autograder/.pixi/envs'
+}
+2025-04-25 15:39:42.124 [error] Dir "/home/josephloverso/Code/Autograder_Project/Autograder/.pixi/envs" is not watchable (directory does not exist)
+2025-04-25 15:39:42.124 [info] Default formatter is set to null for workspace /home/josephloverso/Code/Autograder_Project/Autograder
+2025-04-25 15:39:42.124 [info] Python interpreter path: ./.venv/bin/python
+2025-04-25 15:39:42.139 [info] > pyenv which python
+2025-04-25 15:39:42.139 [info] cwd: .
+2025-04-25 15:39:42.654 [info] > pixi --version
+2025-04-25 15:39:42.655 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2025-04-25 15:39:42.655 [warning] could not find a pixi interpreter for the interpreter at /home/josephloverso/Code/Autograder_Project/Autograder/.venv/bin/python
+2025-04-25 15:39:42.728 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/printEnvVariables.py
+2025-04-25 15:39:42.728 [info] shell: zsh
+2025-04-25 15:39:42.837 [info] > /bin/python ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/printEnvVariables.py
+2025-04-25 15:39:42.838 [info] shell: zsh
+2025-04-25 15:39:42.881 [info] Prepending environment variable PATH in collection with /home/josephloverso/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/deactivate/zsh:/home/josephloverso/Code/Autograder_Project/Autograder/.venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-04-25 15:39:42.881 [info] Setting environment variable VIRTUAL_ENV in collection to /home/josephloverso/Code/Autograder_Project/Autograder/.venv {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-04-25 15:39:42.881 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to (Autograder)  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-04-25 15:39:42.881 [info] Prepending environment variable PS1 in collection with (Autograder)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2025-04-25 15:39:42.882 [info] Send text to terminal: /bin/python /home/josephloverso/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/printEnvVariablesToFile.py /home/josephloverso/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/deactivate/zsh/envVars.txt
+2025-04-25 15:39:44.152 [info] Starting Pylance language server.

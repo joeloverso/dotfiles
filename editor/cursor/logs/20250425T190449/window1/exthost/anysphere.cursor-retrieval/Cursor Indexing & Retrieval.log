@@ -1,0 +1,46 @@
+2025-04-25 19:04:54.708 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-04-25 19:04:54.708 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-04-25 19:04:54.708 [info] Using existing keys for an index
+2025-04-25 19:04:54.708 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-04-25 19:04:54.792 [info] Using existing keys for an index
+2025-04-25 19:04:54.792 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-04-25 19:04:54.844 [info] Setting global status from status tracker: synced
+2025-04-25 19:04:54.844 [info] Doing a startup handshake.
+2025-04-25 19:04:55.015 [info] Finished computing merkle tree in 48.39220599999999 ms.
+2025-04-25 19:04:55.015 [info] Doing the initial handshake with hash: 976d46b0688339e2000cf1a3f0434a658b739ab6e669bd011b48041211c0c3b4
+2025-04-25 19:04:55.020 [info] Computed simhash vector of length: 256
+2025-04-25 19:04:55.020 [info] Path key hash: 98f35dbdccacd42be61cb36656b2e23fcd09f7c2e2edcb9864ae4dd6a8af1fb1
+2025-04-25 19:04:55.020 [info] Handshake start
+2025-04-25 19:04:55.307 [error] Git command failed: git cat-file -e origin/main:.devcontainer/devcontainer.json Command failed: git cat-file -e origin/main:.devcontainer/devcontainer.json
+fatal: path '.devcontainer/devcontainer.json' does not exist in 'origin/main'
+
+2025-04-25 19:04:55.324 [info] Handshake timing: 307.4107809999996, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e175a2ec-1d31-4be6-90ad-5e84f443a81f","status":"STATUS_UP_TO_DATE"}]}
+2025-04-25 19:04:55.324 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e175a2ec-1d31-4be6-90ad-5e84f443a81f","status":"STATUS_UP_TO_DATE"}]}
+2025-04-25 19:04:55.324 [info] Starting fast remote sync.
+2025-04-25 19:04:55.325 [info] Total num embeddable files: 6
+2025-04-25 19:04:55.325 [info] Root hash: 976d46b0688339e2000cf1a3f0434a658b739ab6e669bd011b48041211c0c3b4
+2025-04-25 19:04:55.326 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-04-25 19:04:55.391 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-04-25 19:04:55.391 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-04-25 19:04:55.393 [info] multiCodebaseIndexingJob dispose
+2025-04-25 19:04:55.393 [info] Aborting indexing job.
+2025-04-25 19:04:55.394 [info] Using existing keys for an index
+2025-04-25 19:04:55.394 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-04-25 19:04:55.394 [error] Error in startFastRemoteSync [canceled] This operation was aborted
+2025-04-25 19:04:55.394 [info] Indexing job successfully done or aborted.
+2025-04-25 19:04:55.397 [info] Doing a startup handshake.
+2025-04-25 19:04:55.404 [info] Finished computing merkle tree in 2.8932919999997466 ms.
+2025-04-25 19:04:55.404 [info] Doing the initial handshake with hash: 976d46b0688339e2000cf1a3f0434a658b739ab6e669bd011b48041211c0c3b4
+2025-04-25 19:04:55.406 [info] Computed simhash vector of length: 256
+2025-04-25 19:04:55.406 [info] Path key hash: 98f35dbdccacd42be61cb36656b2e23fcd09f7c2e2edcb9864ae4dd6a8af1fb1
+2025-04-25 19:04:55.406 [info] Handshake start
+2025-04-25 19:04:55.546 [info] Handshake timing: 141.4828279999997, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e175a2ec-1d31-4be6-90ad-5e84f443a81f","status":"STATUS_UP_TO_DATE"}]}
+2025-04-25 19:04:55.546 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e175a2ec-1d31-4be6-90ad-5e84f443a81f","status":"STATUS_UP_TO_DATE"}]}
+2025-04-25 19:04:55.546 [info] Starting fast remote sync.
+2025-04-25 19:04:55.547 [info] Total num embeddable files: 6
+2025-04-25 19:04:55.547 [info] Root hash: 976d46b0688339e2000cf1a3f0434a658b739ab6e669bd011b48041211c0c3b4
+2025-04-25 19:04:55.548 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-04-25 19:04:55.596 [info] Finished indexing repository.
+2025-04-25 19:04:55.597 [info] Indexing job successfully done or aborted.
+2025-04-25 19:07:31.244 [info] multiCodebaseIndexingJob dispose
+2025-04-25 19:07:31.244 [info] Aborting indexing job.

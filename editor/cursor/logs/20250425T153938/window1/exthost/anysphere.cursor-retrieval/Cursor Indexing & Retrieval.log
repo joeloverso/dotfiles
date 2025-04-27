@@ -1,0 +1,101 @@
+2025-04-25 15:39:43.680 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-04-25 15:39:43.680 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-04-25 15:39:43.680 [info] Using existing keys for an index
+2025-04-25 15:39:43.680 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-04-25 15:39:43.818 [info] Using existing keys for an index
+2025-04-25 15:39:43.818 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-04-25 15:39:43.833 [info] Setting global status from status tracker: synced
+2025-04-25 15:39:43.833 [info] Doing a startup handshake.
+2025-04-25 15:39:43.913 [info] Finished computing merkle tree in 9.732543999999962 ms.
+2025-04-25 15:39:43.920 [info] Doing the initial handshake with hash: 976d46b0688339e2000cf1a3f0434a658b739ab6e669bd011b48041211c0c3b4
+2025-04-25 15:39:43.924 [info] Computed simhash vector of length: 256
+2025-04-25 15:39:43.924 [info] Path key hash: 98f35dbdccacd42be61cb36656b2e23fcd09f7c2e2edcb9864ae4dd6a8af1fb1
+2025-04-25 15:39:43.924 [info] Handshake start
+2025-04-25 15:39:44.211 [info] Handshake timing: 289.4167610000004, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e175a2ec-1d31-4be6-90ad-5e84f443a81f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-04-25 15:39:44.211 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e175a2ec-1d31-4be6-90ad-5e84f443a81f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-04-25 15:39:44.211 [info] Starting fast remote sync.
+2025-04-25 15:39:44.211 [info] Total num embeddable files: 6
+2025-04-25 15:39:44.212 [info] Root hash: 976d46b0688339e2000cf1a3f0434a658b739ab6e669bd011b48041211c0c3b4
+2025-04-25 15:39:44.212 [info] In the out of sync case.
+2025-04-25 15:39:44.214 [info] Waiting on semaphore to be released 1
+2025-04-25 15:39:44.271 [error] Git command failed: git cat-file -e origin/main:.devcontainer/devcontainer.json Command failed: git cat-file -e origin/main:.devcontainer/devcontainer.json
+fatal: path '.devcontainer/devcontainer.json' does not exist in 'origin/main'
+
+2025-04-25 15:39:44.358 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-04-25 15:39:44.358 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-04-25 15:39:44.358 [info] multiCodebaseIndexingJob dispose
+2025-04-25 15:39:44.358 [info] Aborting indexing job.
+2025-04-25 15:39:44.358 [info] Using existing keys for an index
+2025-04-25 15:39:44.358 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-04-25 15:39:44.360 [info] Setting global status from status tracker: synced
+2025-04-25 15:39:44.360 [info] Doing a startup handshake.
+2025-04-25 15:39:44.367 [info] Finished computing merkle tree in 2.5283950000002733 ms.
+2025-04-25 15:39:44.367 [info] Doing the initial handshake with hash: 976d46b0688339e2000cf1a3f0434a658b739ab6e669bd011b48041211c0c3b4
+2025-04-25 15:39:44.368 [info] Computed simhash vector of length: 256
+2025-04-25 15:39:44.368 [info] Path key hash: 98f35dbdccacd42be61cb36656b2e23fcd09f7c2e2edcb9864ae4dd6a8af1fb1
+2025-04-25 15:39:44.368 [info] Handshake start
+2025-04-25 15:39:44.412 [info] Indexing job successfully done or aborted.
+2025-04-25 15:39:44.502 [info] Handshake timing: 134.35264599999982, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e175a2ec-1d31-4be6-90ad-5e84f443a81f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-04-25 15:39:44.502 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e175a2ec-1d31-4be6-90ad-5e84f443a81f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-04-25 15:39:44.502 [info] Starting fast remote sync.
+2025-04-25 15:39:44.502 [info] Total num embeddable files: 6
+2025-04-25 15:39:44.502 [info] Root hash: 976d46b0688339e2000cf1a3f0434a658b739ab6e669bd011b48041211c0c3b4
+2025-04-25 15:39:44.502 [info] In the out of sync case.
+2025-04-25 15:39:44.503 [info] Waiting on semaphore to be released 1
+2025-04-25 15:39:44.702 [info] setting numJobsToGo to 1
+2025-04-25 15:39:44.702 [info] [startSync]: numJobs: 1
+2025-04-25 15:39:44.702 [info] Uploading 1 files.
+2025-04-25 15:39:44.703 [info] Total number of files to embed: 6
+2025-04-25 15:39:44.703 [info] Not aborted
+2025-04-25 15:39:44.703 [info] Starting while loop.
+2025-04-25 15:39:44.703 [info] fileQueue.length: 1
+2025-04-25 15:39:44.703 [info] fileQueue.length: 0
+2025-04-25 15:39:44.703 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 2 fileQueue.length: 0
+2025-04-25 15:39:46.326 [info] Completed job successfully: e175a2ec-1d31-4be6-90ad-5e84f443a81f ./main.py
+2025-04-25 15:39:46.326 [info] Waiting for jobs to finish. currentIndexingJobs.length: 0 concurrentUploads.current: 3 fileQueue.length: 0
+2025-04-25 15:39:46.373 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-04-25 15:39:46.690 [info] Finished indexing repository.
+2025-04-25 15:39:46.691 [info] Indexing job successfully done or aborted.
+2025-04-25 15:44:41.371 [error] Git command failed: git cat-file -e origin/main:.devcontainer/devcontainer.json Command failed: git cat-file -e origin/main:.devcontainer/devcontainer.json
+fatal: path '.devcontainer/devcontainer.json' does not exist in 'origin/main'
+
+2025-04-25 15:44:44.359 [info] multiCodebaseIndexingJob dispose
+2025-04-25 15:44:44.359 [info] Aborting indexing job.
+2025-04-25 15:44:44.359 [info] Setting global status from status tracker: synced
+2025-04-25 15:44:44.359 [info] Doing a startup handshake.
+2025-04-25 15:44:44.367 [info] Finished computing merkle tree in 0.8304110000026412 ms.
+2025-04-25 15:44:44.367 [info] Doing the initial handshake with hash: 976d46b0688339e2000cf1a3f0434a658b739ab6e669bd011b48041211c0c3b4
+2025-04-25 15:44:44.368 [info] Computed simhash vector of length: 256
+2025-04-25 15:44:44.368 [info] Path key hash: 98f35dbdccacd42be61cb36656b2e23fcd09f7c2e2edcb9864ae4dd6a8af1fb1
+2025-04-25 15:44:44.368 [info] Handshake start
+2025-04-25 15:44:44.432 [info] Handshake timing: 64.05235199996969, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e175a2ec-1d31-4be6-90ad-5e84f443a81f","status":"STATUS_UP_TO_DATE"}]}
+2025-04-25 15:44:44.432 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e175a2ec-1d31-4be6-90ad-5e84f443a81f","status":"STATUS_UP_TO_DATE"}]}
+2025-04-25 15:44:44.432 [info] Starting fast remote sync.
+2025-04-25 15:44:44.432 [info] Total num embeddable files: 6
+2025-04-25 15:44:44.432 [info] Root hash: 976d46b0688339e2000cf1a3f0434a658b739ab6e669bd011b48041211c0c3b4
+2025-04-25 15:44:44.433 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-04-25 15:44:44.489 [info] Finished indexing repository.
+2025-04-25 15:44:44.489 [info] Indexing job successfully done or aborted.
+2025-04-25 15:49:40.446 [info] Get user commits took 11.087392999907024ms for 10 commits
+2025-04-25 15:49:41.366 [error] Git command failed: git cat-file -e origin/main:.devcontainer/devcontainer.json Command failed: git cat-file -e origin/main:.devcontainer/devcontainer.json
+fatal: path '.devcontainer/devcontainer.json' does not exist in 'origin/main'
+
+2025-04-25 15:49:44.359 [info] multiCodebaseIndexingJob dispose
+2025-04-25 15:49:44.359 [info] Aborting indexing job.
+2025-04-25 15:49:44.359 [info] Setting global status from status tracker: synced
+2025-04-25 15:49:44.360 [info] Doing a startup handshake.
+2025-04-25 15:49:44.367 [info] Finished computing merkle tree in 0.8619209999451414 ms.
+2025-04-25 15:49:44.367 [info] Doing the initial handshake with hash: 976d46b0688339e2000cf1a3f0434a658b739ab6e669bd011b48041211c0c3b4
+2025-04-25 15:49:44.368 [info] Computed simhash vector of length: 256
+2025-04-25 15:49:44.368 [info] Path key hash: 98f35dbdccacd42be61cb36656b2e23fcd09f7c2e2edcb9864ae4dd6a8af1fb1
+2025-04-25 15:49:44.368 [info] Handshake start
+2025-04-25 15:49:44.473 [info] Handshake timing: 105.0251050000079, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e175a2ec-1d31-4be6-90ad-5e84f443a81f","status":"STATUS_UP_TO_DATE"}]}
+2025-04-25 15:49:44.473 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e175a2ec-1d31-4be6-90ad-5e84f443a81f","status":"STATUS_UP_TO_DATE"}]}
+2025-04-25 15:49:44.473 [info] Starting fast remote sync.
+2025-04-25 15:49:44.473 [info] Total num embeddable files: 6
+2025-04-25 15:49:44.473 [info] Root hash: 976d46b0688339e2000cf1a3f0434a658b739ab6e669bd011b48041211c0c3b4
+2025-04-25 15:49:44.474 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-04-25 15:49:44.521 [info] Finished indexing repository.
+2025-04-25 15:49:44.521 [info] Indexing job successfully done or aborted.
+2025-04-25 15:54:03.793 [info] multiCodebaseIndexingJob dispose
+2025-04-25 15:54:03.793 [info] Aborting indexing job.

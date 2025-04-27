@@ -1,0 +1,11 @@
+2025-04-25 18:52:16.996 [info] Name: Ruff
+2025-04-25 18:52:16.996 [info] Module: ruff
+2025-04-25 18:52:16.996 [info] Python extension loading
+2025-04-25 18:52:16.996 [info] Waiting for interpreter from python extension.
+2025-04-25 18:52:16.996 [info] Python extension loaded
+2025-04-25 18:52:16.996 [info] Using interpreter: /home/josephloverso/Code/Autograder_Project/Autograder/.venv/bin/python
+2025-04-25 18:52:17.058 [info] Falling back to bundled executable: /home/josephloverso/.cursor/extensions/charliermarsh.ruff-2025.22.0-linux-x64/bundled/libs/bin/ruff
+2025-04-25 18:52:17.071 [info] Resolved 'ruff.nativeServer: auto' to use the native server
+2025-04-25 18:52:17.074 [info] Found Ruff 0.11.2 at /home/josephloverso/.cursor/extensions/charliermarsh.ruff-2025.22.0-linux-x64/bundled/libs/bin/ruff
+2025-04-25 18:52:17.074 [info] Server run command: /home/josephloverso/.cursor/extensions/charliermarsh.ruff-2025.22.0-linux-x64/bundled/libs/bin/ruff server
+2025-04-25 18:52:17.075 [info] Server: Start requested.

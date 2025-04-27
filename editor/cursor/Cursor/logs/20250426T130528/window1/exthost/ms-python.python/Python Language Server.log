@@ -1,0 +1,21 @@
+2025-04-26 13:05:32.496 [info] (Client) Pylance async client (2024.8.1) started with python extension (2024.12.3)
+2025-04-26 13:05:33.072 [info] [Info  - 1:05:33 PM] (21198) Pylance language server 2024.8.1 (pyright version 1.1.373, commit ee424479) starting
+2025-04-26 13:05:33.096 [info] [Info  - 1:05:33 PM] (21198) Server root directory: file:///home/josephloverso/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2025-04-26 13:05:33.099 [info] [Info  - 1:05:33 PM] (21198) Starting service instance "Autograder"
+2025-04-26 13:05:33.145 [info] [Info  - 1:05:33 PM] (21198) Setting pythonPath for service "Autograder": "/home/josephloverso/Code/Autograder_Project/Autograder/.venv/bin/python"
+2025-04-26 13:05:33.145 [info] [Info  - 1:05:33 PM] (21198) Setting environmentName for service "Autograder": "3.13.3 (.venv venv)"
+2025-04-26 13:05:33.145 [info] [Info  - 1:05:33 PM] (21198) Loading pyproject.toml file at /home/josephloverso/Code/Autograder_Project/Autograder/pyproject.toml
+2025-04-26 13:05:33.153 [info] [Info  - 1:05:33 PM] (21198) Pyproject file "/home/josephloverso/Code/Autograder_Project/Autograder/pyproject.toml" has no "[tool.pyright]" section.
+2025-04-26 13:05:33.153 [info] [Info  - 1:05:33 PM] (21198) No include entries specified; assuming /home/josephloverso/Code/Autograder_Project/Autograder
+2025-04-26 13:05:33.154 [info] [Info  - 1:05:33 PM] (21198) Auto-excluding **/node_modules
+2025-04-26 13:05:33.154 [info] [Info  - 1:05:33 PM] (21198) Auto-excluding **/__pycache__
+2025-04-26 13:05:33.154 [info] [Info  - 1:05:33 PM] (21198) Auto-excluding **/.*
+2025-04-26 13:05:33.168 [info] [Info  - 1:05:33 PM] (21198) Assuming Python version 3.13.3.final.0
+2025-04-26 13:05:33.229 [info] [Info  - 1:05:33 PM] (21198) Found 1 source file
+2025-04-26 13:05:33.432 [info] [Info  - 1:05:33 PM] (21198) Background analysis(1) root directory: file:///home/josephloverso/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2025-04-26 13:05:33.437 [info] [Info  - 1:05:33 PM] (21198) Background analysis(1) started
+2025-04-26 13:05:33.665 [info] [Info  - 1:05:33 PM] (21198) Indexer background runner(2) root directory: file:///home/josephloverso/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist (index)
+2025-04-26 13:05:33.665 [info] [Info  - 1:05:33 PM] (21198) Indexing(2) started
+2025-04-26 13:05:33.951 [info] [Info  - 1:05:33 PM] (21198) scanned(2) 21 files over 1 exec env
+2025-04-26 13:05:34.098 [info] [Info  - 1:05:34 PM] (21198) indexed(2) 14 files over 1 exec env
+2025-04-26 13:05:34.108 [info] [Info  - 1:05:34 PM] (21198) Indexing finished(2).

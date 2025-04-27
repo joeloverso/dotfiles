@@ -1,0 +1,38 @@
+2025-04-25 18:52:16.945 [info] [main] Log level: Info
+2025-04-25 18:52:16.945 [info] [main] Validating found git in: "git"
+2025-04-25 18:52:16.945 [info] [main] Using git "2.49.0" from "git"
+2025-04-25 18:52:16.945 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-25 18:52:16.945 [info] > git rev-parse --show-toplevel [301ms]
+2025-04-25 18:52:16.945 [info] > git rev-parse --git-dir --git-common-dir [48ms]
+2025-04-25 18:52:16.945 [info] [Model][openRepository] Opened repository: /home/josephloverso/Code/Autograder_Project/Autograder
+2025-04-25 18:52:16.971 [info] > git rev-parse --show-toplevel [15ms]
+2025-04-25 18:52:16.971 [info] > git config --get commit.template [19ms]
+2025-04-25 18:52:16.998 [info] > git rev-parse --show-toplevel [13ms]
+2025-04-25 18:52:17.039 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/AI-Functionality refs/remotes/AI-Functionality [44ms]
+2025-04-25 18:52:17.041 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-25 18:52:17.042 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-25 18:52:17.069 [info] > git status -z -uall [18ms]
+2025-04-25 18:52:17.075 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [17ms]
+2025-04-25 18:52:17.106 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/AI-Functionality refs/remotes/AI-Functionality [21ms]
+2025-04-25 18:52:17.130 [info] > git config --local branch.AI-Functionality.vscode-merge-base [17ms]
+2025-04-25 18:52:17.137 [info] > git config --get commit.template [35ms]
+2025-04-25 18:52:17.154 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/AI-Functionality refs/remotes/origin/AI-Functionality [17ms]
+2025-04-25 18:52:17.218 [info] > git merge-base refs/heads/AI-Functionality refs/remotes/origin/AI-Functionality [56ms]
+2025-04-25 18:52:17.248 [info] > git diff --name-status -z --diff-filter=ADMR d5668325c91feb20b47ddda508e92927f1784ae3...refs/remotes/origin/AI-Functionality [22ms]
+2025-04-25 18:52:17.249 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/AI-Functionality refs/remotes/AI-Functionality [39ms]
+2025-04-25 18:52:17.267 [info] > git status -z -uall [8ms]
+2025-04-25 18:52:17.268 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-04-25 18:52:17.477 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-25 18:52:17.608 [info] > git fetch [670ms]
+2025-04-25 18:52:17.615 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [8ms]
+2025-04-25 18:52:17.622 [info] > git config --get commit.template [8ms]
+2025-04-25 18:52:17.630 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/AI-Functionality refs/remotes/AI-Functionality [1ms]
+2025-04-25 18:52:17.643 [info] > git status -z -uall [7ms]
+2025-04-25 18:52:17.644 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-04-25 18:52:22.028 [info] > git show --textconv :main.py [12ms]
+2025-04-25 18:52:22.030 [info] > git ls-files --stage -- /home/josephloverso/Code/Autograder_Project/Autograder/main.py [2ms]
+2025-04-25 18:52:22.045 [info] > git cat-file -s bff41ffcb907fb8883857abda67441bb1f36f314 [3ms]
+2025-04-25 18:52:22.075 [info] > git blame --root --incremental d5668325c91feb20b47ddda508e92927f1784ae3 -- /home/josephloverso/Code/Autograder_Project/Autograder/main.py [4ms]
+2025-04-25 18:52:25.996 [info] > git config --global user.name [1ms]
+2025-04-25 18:52:26.003 [info] > git config --global user.email [1ms]
+2025-04-25 18:52:26.003 [info] [main] Stored git author name in global state: joeloverso <45982616+joeloverso@users.noreply.github.com>

@@ -1,0 +1,3 @@
+2025-04-25 15:39:43.680578620  INFO Registering workspace: /home/josephloverso/Code/Autograder_Project/Autograder
+2025-04-25 15:39:43.700082379  INFO Configuration file watcher successfully registered
+2025-04-25 15:52:40.484862205  WARN Received notification $/setTrace which does not have a handler.

@@ -1,0 +1,41 @@
+2025-04-25 19:04:54.485 [info] [main] Log level: Info
+2025-04-25 19:04:54.485 [info] [main] Validating found git in: "git"
+2025-04-25 19:04:54.485 [info] [main] Using git "2.49.0" from "git"
+2025-04-25 19:04:54.485 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-25 19:04:54.485 [info] > git rev-parse --show-toplevel [11ms]
+2025-04-25 19:04:54.490 [info] > git rev-parse --git-dir --git-common-dir [608ms]
+2025-04-25 19:04:54.506 [info] [Model][openRepository] Opened repository: /home/josephloverso/Code/Autograder_Project/Autograder
+2025-04-25 19:04:54.621 [info] > git rev-parse --show-toplevel [32ms]
+2025-04-25 19:04:54.622 [info] > git config --get commit.template [41ms]
+2025-04-25 19:04:54.669 [info] > git rev-parse --show-toplevel [30ms]
+2025-04-25 19:04:54.680 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/AI-Functionality refs/remotes/AI-Functionality [21ms]
+2025-04-25 19:04:54.682 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-25 19:04:54.683 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-25 19:04:54.729 [info] > git status -z -uall [12ms]
+2025-04-25 19:04:54.732 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-04-25 19:04:54.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/AI-Functionality refs/remotes/AI-Functionality [14ms]
+2025-04-25 19:04:54.785 [info] > git config --local branch.AI-Functionality.vscode-merge-base [22ms]
+2025-04-25 19:04:54.792 [info] > git config --get commit.template [41ms]
+2025-04-25 19:04:54.828 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/AI-Functionality refs/remotes/origin/AI-Functionality [36ms]
+2025-04-25 19:04:54.866 [info] > git merge-base refs/heads/AI-Functionality refs/remotes/origin/AI-Functionality [30ms]
+2025-04-25 19:04:54.875 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/AI-Functionality refs/remotes/AI-Functionality [47ms]
+2025-04-25 19:04:54.894 [info] > git show --textconv :main.py [12ms]
+2025-04-25 19:04:54.894 [info] > git ls-files --stage -- /home/josephloverso/Code/Autograder_Project/Autograder/main.py [3ms]
+2025-04-25 19:04:54.902 [info] > git diff --name-status -z --diff-filter=ADMR d5668325c91feb20b47ddda508e92927f1784ae3...refs/remotes/origin/AI-Functionality [27ms]
+2025-04-25 19:04:54.915 [info] > git cat-file -s bff41ffcb907fb8883857abda67441bb1f36f314 [14ms]
+2025-04-25 19:04:54.967 [info] > git status -z -uall [32ms]
+2025-04-25 19:04:54.967 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [24ms]
+2025-04-25 19:04:55.004 [info] > git blame --root --incremental d5668325c91feb20b47ddda508e92927f1784ae3 -- /home/josephloverso/Code/Autograder_Project/Autograder/main.py [6ms]
+2025-04-25 19:04:55.168 [info] > git check-ignore -v -z --stdin [21ms]
+2025-04-25 19:04:55.287 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2025-04-25 19:04:55.327 [info] > git fetch [821ms]
+2025-04-25 19:04:55.336 [info] > git config --get commit.template [1ms]
+2025-04-25 19:04:55.345 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/AI-Functionality refs/remotes/AI-Functionality [2ms]
+2025-04-25 19:04:55.363 [info] > git status -z -uall [11ms]
+2025-04-25 19:04:55.365 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-04-25 19:04:56.453 [info] > git ls-files --stage -- /home/josephloverso/Code/Autograder_Project/Autograder/main.py [2ms]
+2025-04-25 19:04:56.464 [info] > git cat-file -s bff41ffcb907fb8883857abda67441bb1f36f314 [2ms]
+2025-04-25 19:04:56.478 [info] > git show --textconv :main.py [3ms]
+2025-04-25 19:05:03.832 [info] > git config --global user.name [2ms]
+2025-04-25 19:05:03.839 [info] > git config --global user.email [1ms]
+2025-04-25 19:05:03.839 [info] [main] Stored git author name in global state: joeloverso <45982616+joeloverso@users.noreply.github.com>
