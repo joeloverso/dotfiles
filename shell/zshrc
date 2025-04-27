@@ -105,12 +105,6 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$PATH:$HOME/bin
 # For Quickemu
 export PATH=$HOME/.local/bin:$PATH
-# Open Router Key
-export OPENROUTER_KEY=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
-# Antropic API KEY
-export ANTHROPIC_API_KEY=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
-# OpenAPI_KEY  
-export OPENAI_API_KEY=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
 # This auto runs my nerdy computer script
 fastfetch
 # This auto commands uv to autocomplete 
