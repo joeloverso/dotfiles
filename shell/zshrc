@@ -105,8 +105,12 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$PATH:$HOME/bin
 # For Quickemu
 export PATH=$HOME/.local/bin:$PATH
+# Add DOOM Commands to Path
+export PATH="$HOME/.emacs.d/bin:$PATH"
+# Add Neovide Binary to Path
+export PATH="$HOME/.cargo/bin:$PATH"
 # This auto runs my nerdy computer script
-fastfetch
+#fastfetch
 # This auto commands uv to autocomplete 
 eval "$(uv generate-shell-completion zsh)"
 # Use tab instead of right arrow to autosuggest-accept

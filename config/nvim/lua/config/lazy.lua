@@ -13,7 +13,8 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
   end
 end
 vim.opt.rtp:prepend(lazypath)
-
+-- Set neovide font size to 20
+vim.opt.guifont = { "JetBrainsMono Nerd Font", ":h20" } -- name, then :h<size>
 require("lazy").setup({
   spec = {
     -- add LazyVim and import its plugins
