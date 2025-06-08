@@ -1,0 +1,26 @@
+# Ignore sensitive information
+ssh/id_*
+ssh/*_id_*
+ssh/known_hosts
+ssh/authorized_keys
+
+# Ignore backup files
+*.backup
+*~
+*.swp
+*.swo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore application data
+*/Application Support/*
+!*/Application Support/Code/
+
+# Ignore caches
+**/Cache/
+**/__pycache__/
+**/.sass-cache/
+**/.npm/
+**/.yarn/

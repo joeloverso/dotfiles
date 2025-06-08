@@ -4,7 +4,7 @@ italic_font      auto
 bold_italic_font auto
 
 font_size 18.0
-window_padding_width 15
+window_padding_width 10
 #include theme.conf
 #background_opacity 0.60
 #hide_window_decorations yes
@@ -12,6 +12,6 @@ window_padding_width 15
 # term xterm-256color
 # term xterm-kitty
 # BEGIN_KITTY_THEME
-# Catppuccin Mocha 🌿
+# Adwaita darker
 include current-theme.conf
 # END_KITTY_THEME

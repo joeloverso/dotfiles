@@ -7,16 +7,17 @@ return {
     priority = 1000,
     lazy = false,
     opts = {
-      flavour = "mocha",
+      flavor = "mocha",
       integrations = { alpha = true },
       custom_highlights = function(colors)
         return {
           -----------------------------------------------------------------
           -- UI background adjustments
           -----------------------------------------------------------------
-          Normal = { bg = "#11111b" }, -- darken main background
-          NormalFloat = { bg = "#11111b" }, -- floating windows match
-
+          --Normal = { bg = "#11111b" }, -- darken main background
+          Normal = { bg = "#000000" }, -- darken main background
+          --NormalFloat = { bg = "#11111b" }, -- floating windows match
+          NormalFloat = { bg = "#000000" }, -- floating windows match
           -----------------------------------------------------------------
           -- Flamingo cursor for all shapes / modes
           -----------------------------------------------------------------
