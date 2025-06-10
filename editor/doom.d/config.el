@@ -7,7 +7,8 @@
 (setq doom-font (font-spec :family "JetBrainsMono Nerd Font Mono" :size 18)
       ;; Set dynamic font for headers.
       doom-variable-pitch-font (font-spec :family "JetBrainsMono Nerd Font Mono" :size 18))
-(setq org-agenda-files '("~/Org/"))
+;; Spped of which-key popup
+(setq which-key-idle-delay 0.0)
 
 (defun my-weebery-is-always-greater ()
   (let* ((banner '("███████╗ ███╗   ███╗  █████╗   ██████╗ ███████╗  "

@@ -19,6 +19,13 @@ vim.keymap.set({ "n", "v", "o" }, "H", "^", { desc = "Jump to first non-blank ch
 -- Map L to jump to last character (same as $)
 vim.keymap.set({ "n", "v", "o" }, "L", "$", { desc = "Jump to last non-blank character", noremap = true })
 -- Map J to page down
-vim.keymap.set("n", "J", "<C-f", { desc = "Pagedown", noremap = true })
+vim.keymap.set("n", "J", "<C-f>", { desc = "Pagedown", noremap = true })
 -- Map K to page up
-vim.keymap.set("n", "K", "<C-b", { desc = "Pageup", noremap = true })
+vim.keymap.set("n", "K", "<C-b>", { desc = "Pageup", noremap = true })
+-- Delete to black hole register
+vim.keymap.set("n", "d", '"_d', { desc = "Delete to blank register", noremap = true })
+vim.keymap.set("n", "dd", '"_dd', { desc = "Delete line to blank register", noremap = true })
+vim.keymap.set("v", "d", '"_d', { desc = "Delete selection to blank register", noremap = true })
+-- Delete character to black hole register
+vim.keymap.set("n", "x", '"_x', { desc = "Delete character to blank register", noremap = true })
+vim.keymap.set("v", "x", '"_x', { desc = "Delete selection to blank register", noremap = true })
